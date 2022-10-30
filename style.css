@@ -7,7 +7,7 @@ body > header, .hero, main, footer {
     justify-content: center;
 }
 
-h1, h2, p {
+h1, h2, h3, p {
     margin: 0px;
     padding: 0px;
 }
@@ -151,6 +151,23 @@ header a {
     text-align: end;
     font-weight: 900;
     font-size: 26px;
+}
+
+/* Call to action */
+.call-to-action .container {
+    box-sizing: border-box;
+    background-color: #3882f6;
+    color: #f9faf8;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 120px;
+}
+button.outline {
+    border: 2px solid #f9faf8;
 }
 
 
