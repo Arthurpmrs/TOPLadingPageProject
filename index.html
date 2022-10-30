@@ -9,53 +9,68 @@
 </head>
 <body>
     <header>
-        <img src="images/pdf-icon.svg" width="35px" alt="">
-        <h2>PDFShelf</h2>
-        <a href="">Download</a>
-        <a href="">Documentation</a>
-        <a href="">About</a>
+        <div class="container">
+            <img src="images/pdf-icon.svg">
+            <h2>PDFShelf</h2>
+            <div class="header-links">
+                <a class="dimmed-text" href="">Download</a>
+                <a class="dimmed-text" href="">Documentation</a>
+                <a class="dimmed-text" href="">About</a>
+            </div>
+        </div>
     </header>
     <main class="hero">
-        <div>
-            <h1>Store and manage all your PDFs and EPUBs</h1>
-            <p>A easy, simple and FOSS way to keep track of all the digital learning resources you gathered throughtout the years. Remenber all the the files you keep on an old external hard drive. No more duplicates.</p>
-            <button type="submit">Download</button>
+        <div class="container">
+            <div class="hero-content">
+                <h1>Store and manage all your PDFs and EPUBs</h1>
+                <p class="dimmed-text">A easy, simple and FOSS way to keep track of all the digital learning resources you gathered throughtout the years. Remenber all the the files you keep on an old external hard drive. No more duplicates.</p>
+                <button type="submit">Download</button>
+            </div>
+            <img src="images/bookshelf-1.jpg" alt="placeholder image">
         </div>
-        <img src="images/bookshelf-1.jpg" width="350px" alt="placeholder image">
     </main>
-
     <main class="features">
-        <h2>Features</h2>
-        <div>
-            <img src="images/github.svg" alt="placeholder-img">
-            <p>It is FOSS</p>
-        </div>
-        <div>
-            <img src="images/python.png" alt="placeholder-img">
-            <p>Powered by Python and SQLite database</p>
-        </div>
-        <div>
-            <img src="images/duplicate.png" alt="placeholder-img">
-            <p>Avoid duplicates</p>
-        </div>
-        <div>
-            <img src="images/tags.svg" alt="placeholder-img">
-            <p>Add tags to documents. Avoid the stiffness of folders</p>
+        <div class="container">
+            <h2>Features</h2>
+            <div class="feature-content">
+                <div>
+                    <img src="images/github.svg" alt="placeholder-img">
+                    <p>It is FOSS</p>
+                </div>
+                <div>
+                    <img src="images/python.png" alt="placeholder-img">
+                    <p>Powered by Python and SQLite database</p>
+                </div>
+                <div>
+                    <img src="images/duplicate.png" alt="placeholder-img">
+                    <p>Avoid duplicates</p>
+                </div>
+                <div>
+                    <img src="images/tags.svg" alt="placeholder-img">
+                    <p>Add tags. Avoid the stiffness of folders</p>
+                </div>
+            </div>
         </div>
     </main>
     <main class="quote">
-        <p>Every book you pick up has its own lesson or lessons, and quite often the bad books have more to teach than the good ones.</p>
-        <p>-Stephen King</p>
+        <div class="container">
+            <p>Every book you pick up has its own lesson or lessons, and quite often the bad books have more to teach than the good ones.</p>
+            <p>-Stephen King</p>
+        </div>
     </main>
     <main class="call-to-action">
-        <div>
-            <h3>Download or contribute now!</h3>
-            <p>Download it on Github or contribute to the project</p>
+        <div class="container">
+            <div>
+                <h3>Download or contribute now!</h3>
+                <p>Download it on Github or contribute to the project</p>
+            </div>
+            <button type="submit">Github</button>
         </div>
-        <button type="submit">Github</button>
     </main>
     <footer>
-        Copyright © The Odin Project, Arthurpmrs 2022
+        <div class="container">
+            Copyright © The Odin Project, Arthurpmrs 2022
+        </div>
     </footer>
 </body>
 </html>
