@@ -130,6 +130,29 @@ header a {
 }
 
 /* Quote */
+.quote-section {
+    background-color: #e5e7eb;
+    padding-top: 100px;
+    padding-bottom: 120px;
+    color: #1f2937
+}
+
+.quote-section .container {
+    width: 820px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.author {
+    text-align: end;
+    font-weight: 900;
+    font-size: 26px;
+}
+
 
 
 
