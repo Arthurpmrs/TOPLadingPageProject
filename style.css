@@ -170,6 +170,15 @@ button.outline {
     border: 2px solid #f9faf8;
 }
 
+/* Footer */
+footer .container {
+    padding-top: 42px;
+    padding-bottom: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
 
 
 
