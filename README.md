@@ -1,5 +1,6 @@
-# TOPLadingPageProject
-The Odin Project CSS Project - Lading Page
+# TOP Lading Page Project
+
+The landing page of a hypothetical app, made as a project to exercise CSS knowledge.
 
 ## Credit
 - Quote from: https://www.brainyquote.com/quotes/stephen_king_432566
